@@ -28,7 +28,7 @@ public class SqMaxTest {
     @Test
     public void whenForthMax(){
         SqMax check = new SqMax();
-        int result = check.max(10, 4, 150,20);
+        int result = check.max(10, 4, 20,150);
         assertThat(result, is(150));
     }
     @Test
